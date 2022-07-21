@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    font-family: "Monaco","Lucida Console", "Courier New", monospace;
+}
+.recipe{
+    background-color: black;
+}
+h1{
+    background-color:#ffffff;
+    background-size: 80px;
+    color:#000000;
+    text-align: right;
+    font-weight:lighter;
+    font-size: 50px;    
+}
+a{
+    color:white;
+}
+.links{
+    color: #000000;
+    text-align:left;
+    font-family: "Monaco","Lucida Console", "Courier New", monospace;
+    font-size: large;
+    font-stretch:ultra-expanded;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: auto;
+    height: 400px;
+    border-radius: 8px;
+}
+.description{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color:white;
+    text-align: center;
+    
+}
+.description .desc{
+    grid-area:1/1/1/4;
+}
+.description .ingr{
+    background: #F4A261;
+    text-align: left;
+    color: black;
+    padding: 20px;
+    list-style-type: square;
+    list-style-position: inside;
+    grid-area: 2/1;
+    justify-content: center;
+    align-content: center;
+}
+.description .steps{
+    padding: 20px;
+    text-align: left;
+    font-size: small;
+}
+h2{
+    color:#fca311;
+    text-align: center;
+    font-size: 12px;
+}
